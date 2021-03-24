@@ -30,7 +30,7 @@ def main():
 
     #places all possible choices where user wins
     if userInput == 'Rock' and AIChoice == 'Scissors':
-        print("Rock beats paper, you win")
+        print("Rock beats scissors, you win")
     elif userInput == 'Scissors' and AIChoice == 'Paper':
         print("Scissors beats paper, you win")
     elif userInput == 'Paper' and AIChoice == 'Rock':
